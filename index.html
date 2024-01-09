@@ -13,11 +13,27 @@
         }
 
         header, footer {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 1em;
-        }
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 1em;
+        position: relative;
+    }
+
+    #bilanLink {
+        display: inline-block;
+        background-color: #555;
+        color: #fff;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 4px;
+        transition: background-color 0.3s ease;
+    }
+
+    #bilanLink:hover {
+        background-color: #333;
+    }
+            
 
         main {
             max-width: 600px;
@@ -323,5 +339,8 @@
         <button id="retourFormulaireButton" class="hidden">Retour au Formulaire</button>
         <button id="recommencerButton" class="hidden">Recommencer</button>
     </footer>
+</body>
+</html>
+
 </body>
 </html>
